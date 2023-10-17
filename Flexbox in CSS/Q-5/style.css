@@ -1,0 +1,177 @@
+/* browser reset */
+*{
+  margin:0px;
+  Padding:0px;
+  outline:0px;
+  box-sizing: border-box;
+}
+.Container{
+  height:100vh;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.LeftContainer{
+  width:60%;
+  padding:20px 50px 20px 50px;
+}
+.RightContainer{
+  width:40%;
+}
+.RightContainerImage img{
+  width:100%;
+  height:95vh;
+}
+/* style for header */
+.LeftContainer header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LeftContainerLogo img{
+  width:50px;
+  height:50px;
+  
+ 
+}
+.LeftContainerLogo img:nth-child(1){
+  margin-right: 10px;
+}
+.LeftContainerOption{
+  display: flex;
+  flex-direction: column;
+
+}
+.LeftContainerOption ul{
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  gap:10px;
+  list-style: none;
+
+}
+.LeftContainerOption ul li a{
+  color:black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.GroupButton{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin-top: 5px;
+}
+.GroupButton button{
+  padding: 5px 15px;
+  background-color:white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size:13px;
+  
+}
+.GroupButton button:nth-child(1){
+  background-color: #ff9f04;
+}
+/* style for main area title */
+.LeftContainerMain-area{
+  margin-top:30px;
+}
+.Main-areaTitle h1{
+  font-size: 30px;
+ }
+ /*  main area options button group  */
+ .Main-areaOption{
+display: flex;
+justify-content: space-between;
+margin:30px 0px 30px 0px;
+
+ }
+ .Main-areaOption button{
+
+font-size:20px;
+padding:10px;
+border-radius:5px;
+ }
+ .Main-areaOption button i{
+  padding:5px;
+ }
+ .Main-areaOption button:nth-child(1){
+  background-color: #213D77;
+  color:white;
+ }
+ /* main area search- Bangaloreh train first option */
+ .where-to-where{
+  display:flex;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  justify-content: space-around;
+  align-items: center;
+  border:1px solid rgb(213, 208, 208);
+
+ }
+ .SearchTrain1-form p{
+  margin-left:10px;
+ }
+ .SearchTrain1-form h1{
+  display:flex;
+  align-items: center;
+  gap:5px;
+ }
+ .SearchTrain1-form p{
+  align-self: center;
+  margin:0px 5px;
+ }
+ .SearchTrain1-to h1{
+  display: flex;
+  align-items: center;
+gap:5px;
+ }
+ .SearchTrain1-form p{
+  margin-left:10px;
+ }
+ /* style for Main-areaSearchTrain2  */
+ .SearchTrain2-date p:first-child{
+display: flex;
+align-items: center;
+ }
+ .SearchTrain2-date p img{
+  padding-right:10px;
+ }
+ .SearchTrain2-date h1,p:last-child{
+   padding-left:45px;
+ }
+/* style for class */
+ .SearchTrain2-class p:first-child{
+  display: flex;
+  align-items: center;
+   }
+   .SearchTrain2-class p img{
+    padding-right:10px;
+   }
+   .SearchTrain2-class h1,p:last-child{
+     padding-left:45px;
+   }
+   /* style for seat type*/
+   .SearchTrain2-seat-type p:first-child{
+    display: flex;
+    align-items: center;
+     }
+     .SearchTrain2-seat-type p img{
+      padding-right:10px;
+     }
+     .SearchTrain2-seat-type h1,p:last-child{
+       padding-left:45px;
+     }
+     /* style for left container train search button */
+    .LeftContainerMain-area .searchbutton {
+      display: flex;
+      justify-content: center;
+      font-size:bold;
+      background-color:#01BB0A;
+      border-radius: 5px;
+    }
+    .LeftContainerMain-area .searchbutton button{
+      font-size: 30px;
+      background-color:#01BB0A;
+       border:1px solid #01BB0A;
+      color:white;
+    }

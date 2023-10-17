@@ -1,0 +1,39 @@
+Q-2 Explain the role of the following keyword properties in the CSS flexbox.
+
+justify-content:
+      This property controls how flex items are distributed along the main-axis of the flex container. 
+      It allows you to align flex items horizontally. justify-content common values are 
+      1- flex-start(items are aligned to the start of the container)
+      2-flex-end( items are aligned to the end of the container)
+      3- center( items are aligned to  the center of the container)
+      4-space-between( items are evenly distributed with equal space between them)
+      5- space-around( items are evenly distributed with space around them).
+align-items:
+     This property controls how flex items are aligned along the cross-axis of the flex container.
+     It allows you to align flex items vertically. align-items common values are
+     1- flex-start( items are aligned to the start of the cross-axis)
+     2- flex-end ( items are aligned to  the end of the cross-axis)
+     3- center ( items are aligned to the center)
+     4- stretch(items stretch to fill the container)
+     5- baseline( items are aligned based on their baseline).
+gap:
+  This property sets the spacing between flex items within a flex container.It defines the gap both side 
+  vertically and horizontally. gap property values are
+  1-row-gap ( it create a gap between row items )
+  2- column-gap (it create a gap between column items).
+
+flex-direction:
+     It  specifies the direction it which flex items are placed within the flex container.
+     flex-direction can be set to values like 
+     1- row ( items are set vertically)
+     2- row-reverse(items are set vertically in reverse order)
+     3-column( items are set horizontally)
+     4-column-reverse( items are set horizontally in reverse order).
+
+flex-wrap:
+     It determines weather flex items should wrap to the next line if they don't fit within the container.
+     flex-wrap values are-
+    1- nowrap( items stay on a single line and may overflow)
+    2- wrap( items wrap to the next line if necessary)
+    3-wrap-reversse ( items wrap to the next line in reverse order if necessary)
+

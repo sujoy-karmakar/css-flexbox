@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    outline:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(233, 235, 239);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+    
+.section-card{
+width:262px;
+height:363px;
+padding: 32px;
+border-radius: 8px;
+background-color: #fff;
+border:1px solid gray;
+box-shadow: 0px 0px 10px 0px black;
+
+}
+
+.section-card header h1{
+    font-size: 31px;
+}
+.section-card header .price{
+    font-size:30px;
+    margin:5px 0px;
+}
+.section-card .card-details ul{
+    font-size:15px;
+    margin:20px 26px;
+}
+.section-card .card-details ul{
+    list-style-image:url('assests/check-mark 1.png')
+}
+.section-card .subscribe{
+    display: flex;
+    justify-content: center;
+    margin:30px 15px;
+    padding:5px 0px;
+    border-radius: 50px;
+    background-color:#202842;
+}
+.section-card .subscribe a{
+    font-size:15px;
+    color:white;
+    text-decoration: none;
+   
+}
+
+/* some different style for second card */
+.second-card{
+    width:262px;
+    height:363px;
+    padding: 32px;
+    border-radius: 8px;
+    color:white;
+    background-color: #202842;
+    border:1px solid gray;
+    box-shadow: 0px 0px 10px 0px black;
+    
+    }
+
+.second-card .subscribe{
+    display: flex;
+    justify-content: center;
+    margin:30px 15px;
+    padding:5px 0px;
+    border-radius: 50px;
+    background-color:#fdfdfd;
+}
+.second-card .subscribe a{
+    font-size:15px;
+    color:#202842;;
+    text-decoration: none;
+   
+}
+.second-card .card-details ul{
+    list-style-image:url('assests/check-mark 2.png')
+}
+
